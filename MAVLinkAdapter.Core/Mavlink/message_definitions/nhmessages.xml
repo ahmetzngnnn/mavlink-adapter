@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<mavlink>
+	<!-- NoviceHacker® contact info:                                -->
+	<!-- company URL: http://novicehacker.wordpress.com							-->
+	<!-- email contact: byfurkan63@gmail.com									      -->
+	<!-- mavlink ID range: 630000 - 630099                          -->
+	<messages>
+		<message id="630000" name="NH_AYB_MESSAGE_GOREV">
+			<field type="uint8_t" name="durum" >1: Gorev baslat, 0: Gorev durdur</field>
+		</message>
+	</messages>
+</mavlink>
+
